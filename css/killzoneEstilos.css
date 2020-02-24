@@ -1,0 +1,205 @@
+@font-face {
+	font-family: RobotoSlab;
+	src: url("../fonts/RobotoSlab.ttf");
+}
+
+@font-face {
+	font-family: "MMA Champ";
+	src: url("../fonts/Mmachamp.ttf");
+}
+
+@font-face {
+	font-family: "Futura1";
+	src: url("../fonts/Futura.ttf");
+}
+
+@media screen and (max-device-width: 480px){	
+body {
+	width: 320px;
+}
+#soundbar{
+	display: none;
+}
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px){
+body {
+	width: 481px;
+}
+}
+
+@media screen and (min-width: 1025px){
+body {
+	background-image: url(../images/killzone.jpg);
+
+}	
+}
+
+body {
+	font-family: Futura1, sans-serif;
+	color: #e8e4db;
+	background-color: #292827;
+	margin: 0px;
+}
+
+#contenido {
+	width: 1000px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a #ticket {
+	position: fixed;
+	border: solid 2px #020100;
+	top: 250px;
+	right: -105px;
+}
+a:hover #ticket	{
+	right: 0px;
+}
+
+header {
+	padding: 70px 20px 0px 0px;
+	background-color: #020100;
+	border: solid 2px #9c2c21;
+	color: orange;
+	font-family: "MMA Champ", sans-serif;
+	text-align: right; 
+}
+#bannermerc {
+	position: absolute;
+	float : left;
+	z-index: 99;
+}
+
+#soundbar {
+	float: right;
+}
+
+section {	
+	padding: 50px 50px 100px 50px;
+	border: solid 2px #9c2c21;
+	background-color: #020100;
+}
+
+#faccionesBlock img{
+	display: block;
+	margin: auto;
+}
+
+p {
+	text-indent: 50px;
+}
+p a{
+	text-align: center;
+}
+b {
+	color: #9c2c21;
+}
+h2, h3 {
+	font-family: RobotoSlab, serif;
+	text-align: center;
+	color: #9c2c21;
+	padding: 20px 0px 40px 0px;
+}
+h2{
+	text-decoration: underline;
+}
+
+nav {
+	margin: 5px 0px 5px 0px;
+	padding: 10px;
+	border: solid 2px #9c2c21;
+	background-color: #020100;
+	text-align: center;
+}
+nav ul {
+	margin:		0px;
+	list-style-type: none;
+	padding:	5px 0px 5px 0px;
+}
+nav ul li {
+	font-family: "MMA Champ", sans-serif;
+	display: inline;
+	padding:	5px 10px 5px 10px;
+}
+
+#logo1 {
+	float: left;
+	border: solid 2px #9c2c21;
+	background-color: #020100;	
+}
+#logo2 {
+	float: right;
+	border: solid 2px #9c2c21;
+	background-color: #020100;
+}
+
+#personajes p {
+	padding: 40px;
+}
+#personajes img {
+	float: left;
+	border: solid 2px #9c2c21;
+	margin: 0px 30px 0px 0px;
+}
+#juegos img {
+	border: solid 2px #9c2c21;
+	margin: 3px 3px 100px 3px;
+}
+
+table {
+	text-align: center;
+	padding-top: 40px;
+	margin: auto;
+}
+th, td {
+	color: #020100;
+	background-color: #9c2c21;
+	font-size: 70%;
+	padding: 20px 10px 20px 10px;
+}
+td {
+	background-color: #977f7d;
+}
+
+footer {
+	line-height: 30px;
+	text-align: center;
+	margin: 5px 0px 5px 0px;
+	padding: 30px 20px 20px 20px;
+	background-color: #020100;
+	border: solid 2px #9c2c21;
+}
+footer img{
+	padding: 20px 0px 0px 0px;
+}
+
+nav ul li a:link, nav ul li a:visited {
+	color: #e8e4db;
+	border-bottom: none;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+ul li.selected {
+	border: solid 2px #9c2c21;
+}
+
+.selector {
+	text-align: center;
+	text-indent: 0px;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color:orange;
+}
+.paginactual {
+	padding: 5px;
+	border: solid 2px #9c2c21;
+	color:	#9c2c21;
+}
+
